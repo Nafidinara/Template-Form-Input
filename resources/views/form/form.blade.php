@@ -52,11 +52,12 @@
     <div class="card" style="margin-top:5%; ">
         <h5 class="card-header">Form Input Dokumen</h5>
         <div class="card-body col" style="padding: 5%;">
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="{{url('proses-input')}}" method="post" enctype="multipart/form-data">
+                @csrf
                 <div class="">
                     <label title="Ditandatangani oleh Kepala Kampung Induk dan Bamuskam, diketahui Kepala Distrik">Surat Permohonan</label>
                     <div class="file-input col">
-                        <input type="file" name="surat_perintah">
+                        <input type="file" name="surat_permohonan" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -65,7 +66,7 @@
                 <div class="mt-4">
                     <label>Surat Rekomendasi Bamuskam Kampung Induk</label>
                     <div class="file-input col">
-                        <input type="file" name="surat_rekomendasi">
+                        <input type="file" name="surat_rekomendasi" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -74,7 +75,7 @@
                 <div class="mt-4">
                     <label>Batas-batas Wilayah</label>
                     <div class="file-input col">
-                        <input type="file" name="batas_wilayah">
+                        <input type="file" name="batas_wilayah" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -83,7 +84,7 @@
                 <div class="mt-4">
                     <label title="Laki-laki dan perempuan minimal 100 jiwa">Jumlah Penduduk</label>
                     <div class="file-input col">
-                        <input type="file" name="jml_penduduk">
+                        <input type="file" name="jml_penduduk" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -92,7 +93,7 @@
                 <div class="mt-4">
                     <label>Peta Wilayah Distrik</label>
                     <div class="file-input col">
-                        <input type="file" name="peta_wilayah_distrik">
+                        <input type="file" name="peta_wilayah_distrik" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -101,7 +102,7 @@
                 <div class="mt-4">
                     <label>Peta Wilayah Kampung Induk dan Persiapan</label>
                     <div class="file-input col">
-                        <input type="file" name="peta_wiayah_induk">
+                        <input type="file" name="peta_wil_kampung" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
@@ -110,14 +111,14 @@
                 <div class="mt-4">
                     <label>Foto Kantor Kampung Persiapan</label>
                     <div class="file-input col">
-                        <input type="file" name="foto_kantor">
+                        <input type="file" name="foto_kantor" required>
                         <span class="button">Choose</span>
                         <span class="label" data-js-label>No file selected</span>
                     </div>
                 </div>
 
                 <div class="mt-5">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Kirim Dokumen</button>
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Kirim Dokumen</button>
                 </div>
 
             </form>

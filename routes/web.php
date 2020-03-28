@@ -10,11 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('base');
-});
-
-Route::get('/coba', function () {
-    return view('form.form');
-});
+Route::get('/', function () {return view('base');});
+Route::get('/form', function () {return view('form.form');});
+Route::post('proses-input','FileController@proses_input');

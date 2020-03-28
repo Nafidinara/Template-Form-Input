@@ -17,7 +17,6 @@ class CreateFilesTable extends Migration
             $table->bigIncrements('file_id');
             $table->string('s_permohonan')->default(null);
             $table->string('s_rekomendasi')->default(null);
-            $table->string('s_permohonan')->default(null);
             $table->string('bts_wilayah')->default(null);
             $table->string('jml_penduduk')->default(null);
             $table->string('pw_distrik')->default(null);

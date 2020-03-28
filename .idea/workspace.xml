@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c665bfa7-6ce2-45da-8add-995e698c9986" name="Default Changelist" comment="" />
+    <list default="true" id="c665bfa7-6ce2-45da-8add-995e698c9986" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/form-input.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/form-input.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_27_113317_create_files_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_27_113317_create_files_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +28,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -101,16 +120,30 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZhgMrVjP2o5m5UIYDINznrg3UX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/xampp/php/php.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -132,14 +165,21 @@
       <updated>1585296694023</updated>
       <workItem from="1585297296754" duration="1841000" />
       <workItem from="1585308683006" duration="13711000" />
-      <workItem from="1585360638818" duration="2026000" />
+      <workItem from="1585360638818" duration="14589000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="483" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585380830566">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="483" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1585380830566" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585315097328">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -148,6 +188,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="988" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1585310331325" />
+    <state x="501" y="237" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1585385760667">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="501" y="237" key="PHPComposerAddDependencyDialogDimensionKey/0.0.1536.864@0.0.1536.864" timestamp="1585385760667" />
     <state x="555" y="78" key="SettingsEditor" timestamp="1585314504975">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -156,6 +200,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585360643779" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1585385157438">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1585385157438" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585315162807">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
