@@ -52,6 +52,12 @@
     <div class="card" style="margin-top:5%; ">
         <h5 class="card-header">Form Input Dokumen</h5>
         <div class="card-body col" style="padding: 5%;">
+            @if ($message = Session::get('error'))
+                <div class="alert alert-danger alert-block">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong>{{ $message }}</strong>
+                </div>
+            @endif
             <form action="{{url('proses-input')}}" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="">

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\File;
 use Exception;
 use DB;
+use UxWeb\SweetAlert\SweetAlert;
 
 class FileController extends Controller
 {
@@ -43,9 +44,12 @@ class FileController extends Controller
                 'pw_kampung' => $pw_kampung = $peta_wilayah_kampung->storeAs('file/peta-wil-kampung',$name_wil_kampung),
                 'ft_kantor' => $ft_kantor = $foto_kantor->storeAs('file/foto-kantor',$name_foto_kantor)
             ]);
-
+            DB::commit();
+            SweetAlert::success('Dokumen Berhasil Ditambahkan Broo','Berhasil!');
+            return redirect('/');
         }catch (Exception $e){
             DB::rollBack();
+            return redirect('/form')->with(['error' => 'Ooops, error:'.$e->getMessage()]);
 
         }
 
