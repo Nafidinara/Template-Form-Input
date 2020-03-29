@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c665bfa7-6ce2-45da-8add-995e698c9986" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/form-input.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/form-input.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/table/table.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/form/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,8 @@
       <updated>1585296694023</updated>
       <workItem from="1585297296754" duration="1841000" />
       <workItem from="1585308683006" duration="13711000" />
-      <workItem from="1585360638818" duration="21058000" />
+      <workItem from="1585360638818" duration="21244000" />
+      <workItem from="1585445384488" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="add controller">
       <created>1585392658344</created>
@@ -169,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585392658344</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add error handling">
+      <created>1585407685260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585407685260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +183,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add controller" />
+    <MESSAGE value="add error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add error handling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="483" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585380830566">
@@ -191,10 +195,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1585315097328" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1585392657653">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1585407684604">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585392657653" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585407684604" />
     <state x="988" y="355" key="NewPhpFileDialog" timestamp="1585310331325">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -207,14 +211,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="555" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585314504975" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1585392676917">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1585407696508">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585392676917" />
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585360643779">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585407696508" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585445392018">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585360643779" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585445392018" />
     <state x="453" y="148" width="629" height="568" key="find.popup" timestamp="1585406075551">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

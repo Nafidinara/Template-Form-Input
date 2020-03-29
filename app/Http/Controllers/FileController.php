@@ -10,6 +10,11 @@ use UxWeb\SweetAlert\SweetAlert;
 
 class FileController extends Controller
 {
+    public function index(){
+        $data = File::all();
+        return view('table.table',compact('data'));
+    }
+
     public function proses_input(Request $request){
         $surat_permohonan = $request->file('surat_permohonan');
         $surat_rekomendasi = $request->file('surat_rekomendasi');

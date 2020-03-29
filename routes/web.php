@@ -13,5 +13,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {return view('base');});
-Route::get('/form', function () {return view('form.form');});
+Route::get('form', function () {return view('form.form');});
+Route::get('table','FileController@index');
 Route::post('proses-input','FileController@proses_input');
