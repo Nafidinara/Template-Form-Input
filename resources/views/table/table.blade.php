@@ -4,7 +4,7 @@
     <script src="{{url('https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js')}}"></script>
     <script src="{{url('https://use.fontawesome.com/9564038555.js')}}"></script>
     <div class="card" style="margin-top:5%; ">
-        <h5 class="card-header">Tabel File</h5>
+        <h4 class="card-header">Tabel File</h4>
         <div class="card-body col" style="padding: 5%;">
 {{--            @php--}}
 {{--            dd($data);--}}
@@ -26,7 +26,7 @@
                         <td>{{$datas->created_at}}</td>
                         <td>{{$datas->file_id}}</td>
                         <td>
-                            <a href=""><button class="btn" style="width:100%"><i class="fa fa-download"></i></button></a>
+                            <a href="{{url('download/'.$datas->file_id)}}"><button class="btn" style="width:100%"><i class="fa fa-download"></i></button></a>
                         </td>
                     </tr>
                 @endforeach

@@ -50,7 +50,7 @@
         }
     </style>
     <div class="card" style="margin-top:5%; ">
-        <h5 class="card-header">Form Input Dokumen</h5>
+        <h4 class="card-header">Form Input Dokumen</h4>
         <div class="card-body col" style="padding: 5%;">
             @if ($message = Session::get('error'))
                 <div class="alert alert-danger alert-block">
