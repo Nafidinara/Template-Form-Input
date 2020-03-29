@@ -19,6 +19,7 @@
                 </tr>
                 </thead>
                 <tbody>
+                @if(is_array($data) || is_object($data))
                 @foreach($data as $key=>$datas)
                     <tr style="text-align: center">
                         <td>{{$key+1}}</td>
@@ -29,6 +30,7 @@
                         </td>
                     </tr>
                 @endforeach
+                    @endif
                 </tbody>
             </table>
         </div>

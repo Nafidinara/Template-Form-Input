@@ -12,6 +12,10 @@ class FileController extends Controller
 {
     public function index(){
         $data = File::all();
+        if (count($data) == 0){
+            SweetAlert::error('Data tidak ditemukan atau masih kosong','Poor Man!');
+            return view('table.table',compact('data'));
+        }
         return view('table.table',compact('data'));
     }
 
