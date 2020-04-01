@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c665bfa7-6ce2-45da-8add-995e698c9986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo-kab-sorong.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bg-sorong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/table/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/table/table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,11 +139,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Alfara\ngoding\laravel\form-input\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Alfara\ngoding\laravel\form-input\public" />
       <recent name="D:\Alfara\ngoding\laravel\form-input" />
     </key>
   </component>
@@ -155,7 +165,9 @@
       <workItem from="1585308683006" duration="13711000" />
       <workItem from="1585360638818" duration="21244000" />
       <workItem from="1585445384488" duration="11872000" />
-      <workItem from="1585481167875" duration="7637000" />
+      <workItem from="1585481167875" duration="9757000" />
+      <workItem from="1585538940776" duration="36000" />
+      <workItem from="1585707341223" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="add controller">
       <created>1585392658344</created>
@@ -222,6 +234,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585494069268" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585538974130">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585538974130" />
     <state x="988" y="355" key="NewPhpFileDialog" timestamp="1585310331325">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -238,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585494078596" />
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585481186154">
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585538955950">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585481186154" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585538955950" />
     <state x="93" y="93" width="1350" height="678" key="dock-window-1" timestamp="1585458136010">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

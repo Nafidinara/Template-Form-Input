@@ -49,6 +49,7 @@
             opacity: 1;
         }
     </style>
+    <div class="container">
     <div class="card" style="margin-top:5%; ">
         <h4 class="card-header">Form Input Dokumen</h4>
         <div class="card-body col" style="padding: 5%;">
@@ -130,6 +131,7 @@
             </form>
 
         </div>
+    </div>
     </div>
 
     <script>

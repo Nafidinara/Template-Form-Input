@@ -1,5 +1,6 @@
 @extends('base')
 @section('content')
+    <div class="container">
     <link rel="stylesheet" href="{{url('https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css')}}">
     <script src="{{url('https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js')}}"></script>
     <script src="{{url('https://use.fontawesome.com/9564038555.js')}}"></script>
@@ -34,6 +35,7 @@
                 </tbody>
             </table>
         </div>
+    </div>
     </div>
     <script type="text/javascript">
         $(document).ready(function(){
